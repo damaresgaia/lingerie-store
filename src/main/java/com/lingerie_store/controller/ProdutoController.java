@@ -1,4 +1,4 @@
-package controller;
+package com.lingerie_store.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import model.Produto;
-import service.ProdutoService;
+import com.lingerie_store.model.Produto;
+import com.lingerie_store.service.ProdutoService;
 
 @Controller
 @RequestMapping("/produtos")

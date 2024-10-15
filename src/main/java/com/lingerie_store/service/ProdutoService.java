@@ -1,12 +1,12 @@
-package service;
+package com.lingerie_store.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import model.Produto;
-import repository.ProdutoRepository;
+import com.lingerie_store.model.Produto;
+import com.lingerie_store.repository.ProdutoRepository;
 
 @Service
 public class ProdutoService {

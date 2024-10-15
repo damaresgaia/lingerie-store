@@ -1,4 +1,4 @@
-package model;
+package com.lingerie_store.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
